@@ -4,10 +4,6 @@ class Car :
         self.brand = brand
         self.model = model
         self.year = year
-
-        self.car_brand()
-        self.car_model()
-        self.car_year()
     
     def car_brand(self):
         print("The car brand is: ", self.brand)
@@ -17,6 +13,11 @@ class Car :
 
     def car_year(self):
         print("The car year is: ", self.year)
+
+    def display_car_details(self):
+        self.car_brand()
+        self.car_model()
+        self.car_year()
 
 
 
