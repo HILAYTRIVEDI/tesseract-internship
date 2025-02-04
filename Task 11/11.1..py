@@ -1,3 +1,5 @@
+import datetime
+
 class Car :
     # Define the class constructor
     def __init__(self, brand, model, year):
@@ -14,10 +16,17 @@ class Car :
     def car_year(self):
         print("The car year is: ", self.year)
 
+    # Method to calculate age of the car
+    def car_age(self):
+        current_year = datetime.datetime.now()
+        age = int(current_year.year) - self.year
+        print("The car is", age, "years old")
+
     def display_car_details(self):
         self.car_brand()
         self.car_model()
         self.car_year()
+        self.car_age()
 
 
 class ElectricCar(Car):
