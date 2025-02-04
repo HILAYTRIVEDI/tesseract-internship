@@ -20,5 +20,20 @@ class Car :
         self.car_year()
 
 
+class ElectricCar(Car):
+    def __init__(self, brand, model, year, battery_size):
+        super().__init__(brand, model, year)
+        self.battery_size = battery_size
+        self.display_car_details()
+
+    def battery_size(self):
+        print("The battery size is: ", self.battery_size)
+
+    def display_car_details(self):
+        super().display_car_details()
+        print("The battery size is: ", self.battery_size)
+
 
 car_object = Car("Toyota", "Corolla", 2015)
+
+electric_car_object = ElectricCar("Tesla", "Model S", 2020, 100)
