@@ -3,14 +3,12 @@ def process_numbers(a, b):
         print("Starting the process...")
 
         try:
-            # First, try dividing the numbers
             result = a / b
             print(f"Division result: {result}")
         except ZeroDivisionError:
             print("Error: Cannot divide by zero!")
 
         try:
-            # Now, try converting the result to an integer
             int_result = int(result)
             print(f"Converted result to integer: {int_result}")
         except NameError:
@@ -24,7 +22,7 @@ def process_numbers(a, b):
     finally:
         print("Process completed.\n")
 
-# Test cases
-process_numbers(10, 2)    # Normal case
-process_numbers(5, 0)     # Division by zero
-process_numbers('five', 2)  # Invalid input type
+
+process_numbers(10, 2)
+process_numbers(5, 0)
+process_numbers('five', 2)
