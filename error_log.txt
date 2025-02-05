@@ -1,0 +1,2 @@
+2025-02-04 22:08:03,143 - ERROR - ZeroDivisionError: division by zero
+2025-02-04 22:08:03,143 - ERROR - TypeError: unsupported operand type(s) for /: 'str' and 'int'
