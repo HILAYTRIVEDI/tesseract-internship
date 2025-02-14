@@ -1,0 +1,11 @@
+ID,Name,Age,Salary,Department,Joining_Date,Performance_Rating
+1,John Doe,25,50000,IT,2021-06-15,4
+2,Jane Smith,30,60000,HR,2020-09-23,5
+3,Bob Johnson,,55000,Finance,2019-03-10,3
+4,Alice Brown,28,,IT,2022-01-12,4
+5,Charlie Green,35,70000,HR,2018-11-05,5
+6,Eve White,40,80000,Finance,2015-07-18,
+7,Frank Black,50,90000,IT,2010-02-14,2
+8,Gina Blue,45,75000,Marketing,2016-05-30,3
+9,Hank Yellow,29,72000,HR,2023-07-01,4
+10,Ivy Red,33,,Marketing,2021-12-20,5

@@ -1,0 +1,4 @@
+2024-02-12 10:30:21 INFO User login successful - user_id=12345
+2024-02-12 10:32:05 ERROR Database connection failed - db_server=192.168.1.10
+2024-02-12 10:35:42 WARNING Disk space low - available_space=500MB
+2024-02-12 10:40:15 INFO File uploaded - filename=report.pdf
